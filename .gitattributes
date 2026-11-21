@@ -1,4 +1,9 @@
 *.patch whitespace=-blank-at-eol
+Start-DeskPort.sh text eol=lf
+Build-and-Start-DeskPort.sh text eol=lf
+scripts/build-source-windows.sh text eol=lf
+Start-DeskPort.cmd text eol=crlf
+Build-and-Start-DeskPort.cmd text eol=crlf
 # Preserve upstream wayland-scanner output and license formatting.
 host/linux/kde-output-*.c whitespace=-blank-at-eof
 host/linux/kde-output-*.h whitespace=-blank-at-eol

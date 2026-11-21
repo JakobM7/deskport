@@ -507,6 +507,9 @@ See the [2.9.0 release notes](docs/releases/RELEASE_2.9.0.md),
 
 ## Build and run on Linux
 
+To launch or rebuild a checkout using the Linux and Windows desktop scripts,
+see [Launch from a source checkout](docs/SOURCE_LAUNCH.md).
+
 With Nix and flakes enabled:
 
 ```sh
